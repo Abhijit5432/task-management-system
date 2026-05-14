@@ -1,16 +1,117 @@
-# React + Vite
+# 🚀 Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern full-stack Task Management Application built with scalable backend architecture, secure JWT authentication, role-based access control, and complete CRUD functionality.
 
-Currently, two official plugins are available:
+Designed as a production-ready backend-focused project with clean architecture, RESTful APIs, API documentation, and frontend integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+# 🔥 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Frontend
+https://your-frontend.vercel.app
 
-## Expanding the ESLint configuration
+## Backend API
+https://your-backend.onrender.com
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Swagger Documentation
+https://your-backend.onrender.com/api-docs
+
+---
+
+# ✨ Features
+
+## 🔐 Authentication & Security
+- User Registration
+- User Login
+- JWT Authentication
+- Password Hashing with bcrypt
+- Protected Routes
+- Role-Based Access Control (User/Admin)
+
+---
+
+## 📋 Task Management
+- Create Tasks
+- Fetch Tasks
+- Update Tasks
+- Delete Tasks
+- Toggle Task Completion
+- User-Specific Task Access
+
+---
+
+## ⚡ Backend Features
+- RESTful API Architecture
+- API Versioning (`/api/v1`)
+- Express Middleware
+- Global Error Handling
+- Input Validation
+- Modular Scalable Folder Structure
+- MongoDB Atlas Integration
+- Swagger API Documentation
+
+---
+
+## 🎨 Frontend Features
+- React + Vite
+- Axios API Integration
+- Login/Register Pages
+- Protected Dashboard
+- Clean Responsive UI
+- Real-Time CRUD Operations
+
+---
+
+# 🛠️ Tech Stack
+
+## Backend
+- Node.js
+- Express.js
+- MongoDB Atlas
+- Mongoose
+- JWT
+- bcryptjs
+- express-validator
+- Swagger
+
+---
+
+## Frontend
+- React.js
+- Vite
+- Axios
+- React Router DOM
+
+---
+
+# 📁 Project Structure
+
+```txt
+task-management-system/
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   ├── controllers/
+│   │   ├── middleware/
+│   │   ├── models/
+│   │   ├── routes/
+│   │   ├── utils/
+│   │   ├── app.js
+│   │   └── server.js
+│   │
+│   ├── .env
+│   └── package.json
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── App.jsx
+│   │   └── main.jsx
+│   │
+│   └── package.json
+│
+└── README.md
