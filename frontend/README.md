@@ -9,13 +9,13 @@ Designed as a production-ready backend-focused project with clean architecture, 
 # 🔥 Live Demo
 
 ## Frontend
-https://your-frontend.vercel.app
+https://task-management-system-steel-nine.vercel.app/
 
 ## Backend API
-https://your-backend.onrender.com
+https://task-management-api-t2gp.onrender.com/
 
 ## Swagger Documentation
-https://your-backend.onrender.com/api-docs
+https://task-management-api-t2gp.onrender.com/api-docs/
 
 ---
 
