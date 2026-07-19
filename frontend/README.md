@@ -49,6 +49,7 @@ https://task-management-api-t2gp.onrender.com/api-docs/
 - Input Validation
 - Modular Scalable Folder Structure
 - MongoDB Atlas Integration
+- MongoDB Compass
 - Swagger API Documentation
 
 ---
